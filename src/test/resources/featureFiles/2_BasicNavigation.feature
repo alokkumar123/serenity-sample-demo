@@ -1,11 +1,6 @@
 Feature: Basic Navigation
 
-  @test-111
-  Scenario: Test Navigation
-    Given User is on splash page
-    And Navigate to pages
-
-  @test-112
-  Scenario: Test Notification
-    Given User is on splash page
-    And Navigate to notifications
+ @test-111
+ Scenario: Successful Login with Valid Credentials
+	Given User is on Home Page
+  And Navigate to pages

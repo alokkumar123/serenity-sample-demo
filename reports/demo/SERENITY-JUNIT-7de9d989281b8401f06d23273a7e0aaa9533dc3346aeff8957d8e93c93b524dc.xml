@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Basic Navigation" skipped="0" tests="1" time="1.19" timestamp="2018-02-02T01:31:00.979+05:30[Asia/Calcutta]"><testcase name="Successful Login with Valid Credentials"><failure message="The page object class com.Sample.cucumber.pages.BasicNavigation looks dodgy:&#10;Failed to instantiate page (java.lang.RuntimeException: Could not instantiate the custom webdriver provider of type com.Sample.cucumber.customDriver.capabilities.CustomChromeDriverCapabilities)" type="net.thucydides.core.pages.WrongPageError">The page object class com.Sample.cucumber.pages.BasicNavigation looks dodgy:
+Failed to instantiate page (java.lang.RuntimeException: Could not instantiate the custom webdriver provider of type com.Sample.cucumber.customDriver.capabilities.CustomChromeDriverCapabilities)</failure><system-err>The page object class com.Sample.cucumber.pages.BasicNavigation looks dodgy:
+Failed to instantiate page (java.lang.RuntimeException: Could not instantiate the custom webdriver provider of type com.Sample.cucumber.customDriver.capabilities.CustomChromeDriverCapabilities)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+✽.User is on Home Page(src/test/resources/featureFiles/2_BasicNavigation.feature:5)&#13;
+</system-err></testcase></testsuite>
